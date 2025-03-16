@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ft_package"
+version = "0.0.1"
+description = "A sample test package"
+readme = "README.md"
+authors = [
+    { name = "Hicham", email = "sarajhicham@gmail.com" }
+]
+license = { text = "MIT" }
+dependencies = [
+  "requests>=2.0",
+  "numpy"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[tool.setuptools]
+packages = ["ft_package"]
+
+[project.urls]
+Homepage = "https://github.com/Hicham1S"
+Repository = "https://github.com/Hicham1S"
